@@ -5,7 +5,7 @@ MainWindow::MainWindow(QWidget *parent)
     : QWidget(parent)
 {
     setFixedSize(380,400);
-    setWindowTitle(QString::fromUtf8("  Пятнашки        Аушев К.  2016"));
+    setWindowTitle(QString::fromUtf8("  Пятнашки"));
 
     btnNewGame= new QPushButton(QString::fromUtf8("Новая игра"));
     btnQuit= new QPushButton(QString::fromUtf8("Выход"));
